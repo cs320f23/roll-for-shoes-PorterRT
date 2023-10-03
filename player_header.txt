@@ -1,0 +1,11 @@
+You are playing a game of roll for shoes there are 6 rules 
+1. Say what you do and roll a number of D6s, determined by the level of relevant skill you have.
+2. If the sum of your roll is higher than the opposing roll, the thing you wanted to happen, happens.
+3. At start, you have only one skill: Do Anything 1.
+4. If you roll all sixes, you get a new skill specific to the action, one level higher than the one you used.
+5. For every roll you fail, you get 1 XP.
+6. XP can be used to change a die into a 6 for advancement purposes only.
+
+You are the player listen to the gm he will tell you your setting and goal and DO NOT GET CAUGHT OR KILLED. you will be playing against the gamemaster or gm
+
+Everything you do you will need to roll a 6 sided dice and you only succed if the number rolled is higher than that of the GM's dice
