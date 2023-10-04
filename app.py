@@ -36,7 +36,6 @@ class Agent:
         token_count = self.count_tokens(combined_message)
         
         #print(f"Token count for message: {token_count}")
-        
 
         self.message_history.append(HumanMessage(content=combined_message))
         resp = self.chat(self.message_history)
@@ -54,11 +53,8 @@ class Agent:
         while len(self.buffered_messages) > 4:  # Adjust to 4 for 2 messages and 2 responses
             self.buffered_messages.pop(0)
 
-        if self.final_count > 4000:
+        if self.final_count > 6000:
             #print("Token limit reached. Buffering last interaction and starting a new conversation.")
-            
-            
-
             # Reset message history and token count.
             self.message_history = []
             self.final_count = 0
@@ -115,16 +111,16 @@ while(L == True):
     print(f"{current_agent.name}:")
     resp = current_agent.message(message)
     # Check if game over conditions are met
-    print(f"Checking GM's message for game-over phrases: {resp.content}")
-    if game_over(resp.content):
-        print("Game Over!")
-        L = False
-        break
+    #print(f"Checking GM's message for game-over phrases: {resp.content}")
+    #if game_over(resp.content):
+        #print("Game Over!")
+        #L = False
+        #break
     message = resp.content
     if current_agent == player:
         current_agent = gm
     else:
         current_agent = player
 
-print("out of loop")
+#print("out of loop")
         

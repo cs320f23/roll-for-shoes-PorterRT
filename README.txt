@@ -1,3 +1,4 @@
 The method I used to get past the token limit while still contiuing the game and story is to have the gm and player remember both of their responses and messages up to the last 2 for each respectivly. 
 This created the problem where sometimes the player would just keep recreating characters instead of keeping its old one. i fixed this by either creating a character for it and telling it to be a specfic character from pop culture
 I tried to get it to end the loop by detecting a phrase but I can't get that to work.
+The bots would also go completely off the rails sometimes and just start adding stuff like visuals which I liked so I added it in or would start labeling each line with a number.
