@@ -1,15 +1,3 @@
-Here's what was modified:
-
-Initialization of Message History: Initialized self.message_history in the Agent class.
-
-Refined Message Method: Modified how messages are processed and stored in history.
-
-Removed Undefined Variables: I've removed the undefined all_header and clarified the reading of the headers.
-
-Stopping Criterion: The loop now has a max turn limit, so it doesn't go on indefinitely. You can adjust this as necessary.
-
-Saving Conversations: I've made sure that both the GM's and Player's conversations are saved at the end of the loop.
-
-Note: This is a basic structure to get you started. You might want to add game-specific logic, character progression, and other game mechanics as mentioned in previous answers.
-
-this is from chatgpt 4
+The method I used to get past the token limit while still contiuing the game and story is to have the gm and player remember both of their responses and messages up to the last 2 for each respectivly. 
+This created the problem where sometimes the player would just keep recreating characters instead of keeping its old one. i fixed this by either creating a character for it and telling it to be a specfic character from pop culture
+I tried to get it to end the loop by detecting a phrase but I can't get that to work.
